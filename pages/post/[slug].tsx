@@ -177,7 +177,7 @@ export const getStaticPaths = async()=>{
     }
 }
 export const getStaticProps: GetStaticProps =async ({params}) => {
-    const query = `*[_type == "post" && slug.current == 'next-vs-react'][0]{
+    const query = `*[_type == "post" && slug.current == $slug][0]{
         _id,
         _createAt,
         title,
@@ -210,6 +210,6 @@ export const getStaticProps: GetStaticProps =async ({params}) => {
         props:{
             post,
         },
-        revalidate:60
+        revalidate:5
     }
 }
