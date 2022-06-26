@@ -1,5 +1,5 @@
 # Medium Clone
-![alt text](https://lever-client-logos.s3.us-west-2.amazonaws.com/762fd4bd-7d50-4ac3-80d3-bad44702bf87-1604363697348.png)
+![Readme Image](https://github.com/emiz98/next-medium/blob/master/readme.png?raw=true)
 <br/>
 
 ## About Medium
